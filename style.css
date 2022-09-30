@@ -1,0 +1,77 @@
+body {
+  background-color: #736284;
+  text-align: center;
+}
+
+
+
+.conteiner  {
+  width: auto;
+  height: auto;
+  background:#63798b ;
+  margin: auto;
+  border: 1px solid rgb(0, 0, 0);
+
+}
+
+
+input {
+  text-align: center;
+}
+
+.dia #day {
+  width: 10ch;
+  height: 20px;
+  font-size: 15;
+  border-radius: 10px;
+  background-color: #b07d9a;
+  border-color: #000000;
+  font-weight: bolder;
+  margin:0px auto;
+}
+
+.mes #moth {
+  width: 10ch;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #b07d9a;
+  border-color: #000000;
+  font-weight: bolder;
+  margin:0px auto;
+}
+
+.año #year {
+  width: 10ch;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #b07d9a;
+  border-color: #000000;
+  font-weight: bolder;
+  margin:0px auto;
+}
+
+.calcular button {
+  width: 10ch;
+   height: 30px;
+   font-size: 20px;
+   border-radius: 20px;
+   background-color: #736284;
+   border-color: #000000;
+   font-weight: bolder;
+ 
+ }
+ 
+ 
+ .resultado input {
+   width: 25ch;
+   height: 35px;
+   font-size: 20px;
+   text-align: center;
+   border-radius: 8px;
+   font-weight: bolder;
+   background-color: #efdfc0;
+   border-color: #000000;
+ }
+ 

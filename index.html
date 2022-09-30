@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./style.css" rel="stylesheet" type="text/css" />
+        <title>Calendario</title>
+        
+    </head>
+    <body>
+        
+        <h2 class="title">CALENDARIO DÍA LABORAL</h2>
+        <img src="./assets/calendario.jpg" height="130" width="130" alt="Calendario" />
+        <p>Este calendario consiste en agregar un día, mes y año  en especico para saber si ese día es laboral o no fue laboral </p>
+        <br>
+
+        <section class="conteiner">
+        <div class="container">
+            <span><h4>SELECCIONE EL DÍA</h4></span>
+            <div class="dia"><input  type="number" id="day" placeholder="00"/></div>
+            <span><h4>SELECIONE EL MES</h4></span>
+            <div class="mes"><input  type="number" id="moth" placeholder="00"/></div>
+            <span><h4>SELECIONE EL AÑO</h4></span>
+            <div class="año"><input  type="number" id="year" placeholder="2000"/></div> <br>
+        </div>
+
+        <div class="calcular">
+            <button class="btn btn-outline-success" id="btn_calcular">Calcular</button>
+        </div>
+        <br>
+
+        <div class="resultado">
+            <input class="form-control" type="text" id="resultado" placeholder="" readonly disabled />
+        </div>
+        <br>
+    </section>
+
+        <br>
+        <footer class="footer">
+        <img src="./assets/totoro.gif" height="130" width="130" alt="Feliz" />
+        <p>Calendario realizado por Elizabeth con ayuda en JavaScript</p> 
+        </footer>
+    </body>
+    <script src="javascript.js"></script>
+</html>
+
